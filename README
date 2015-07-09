@@ -1,0 +1,20 @@
+This project contains scripts to convert variables in Creative Commons' website
+.po files to a more general format.
+
+Creative Commons' website is translated using gettext .po files.
+For historical reasons these include variables in Python format.
+This format is not supported in other programming languages.
+
+bin/depythonize converts a Python-style "%(var)s" into a more general "%1".
+It is careful to maintain the correct order for variables in translated strings.
+The results are suitable for usage in php-smarty for example.
+
+make.sh copies over those strings with Python-style variables in them (which we
+assume are useful for License Chooser-style activities) and converts them.
+The results are placed in po/ .
+
+To use this code, check it out next to a checkout of
+
+    https://github.com/creativecommons/i18n
+
+then run make.sh from within this directory.

@@ -1,0 +1,57 @@
+# Translations template for PROJECT.
+# Copyright (C) 2015 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+#
+# Translators:
+# Muid Latif <muidlatif@gmail.com>, 2013-2015
+msgid ""
+msgstr ""
+"Project-Id-Version: Creative Commons\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2015-06-26 21:00+0000\n"
+"PO-Revision-Date: 2015-06-28 05:58+0000\n"
+"Last-Translator: Muid Latif <muidlatif@gmail.com>\n"
+"Language-Team: Malay (http://www.transifex.com/projects/p/CC/language/ms/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 1.3\n"
+"Language: ms\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: checkouts/cc.license/cc/license/formatters/classes.py:187
+#, python-format
+msgid ""
+"%(work_title)s by %(work_author)s is licensed under a <a rel=\"license\" "
+"href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
+msgstr ""
+"%1 oleh %2 adalah dibawah sebuah lesen <a rel=\"license\" href=\"%3\">Lesen "
+"Creative Commons %4</a>."
+
+#: checkouts/cc.license/cc/license/formatters/classes.py:200
+#, python-format
+msgid ""
+"This %(work_type)s by %(work_author)s is licensed under a <a rel=\"license\" "
+"href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
+msgstr ""
+"%1 ini oleh %2 dilesenkan dibawah sesebuah <a rel=\"license\" href="
+"\"%3\">Lesen %4 Creative Commons</a>."
+
+#: checkouts/cc.license/cc/license/formatters/classes.py:211
+#, python-format
+msgid ""
+"%(work_title)s is licensed under a <a rel=\"license\" href=\"%(license_url)s"
+"\">Creative Commons %(license_name)s License</a>."
+msgstr ""
+"%1 is licensed under a <a rel=\"license\" href=\"%2\">Creative Commons %3 "
+"License</a>."
+
+#: checkouts/cc.license/cc/license/formatters/classes.py:220
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/chooser/xmp_template.py:60
+#, python-format
+msgid ""
+"This %(work_type)s is licensed under a <a rel=\"license\" href="
+"\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
+msgstr ""
+"%1 ini dilesenkan di bawah <a rel=\"license\" href=\"%2\">Lesen %3 Creative "
+"Commons</a>."

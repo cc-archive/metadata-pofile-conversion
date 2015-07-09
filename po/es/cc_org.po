@@ -1,0 +1,65 @@
+# Translations template for PROJECT.
+# Copyright (C) 2015 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+#
+# Translators:
+# Ana Evelyn Del Pinal, 2013
+# Claudio Ruiz <claudio@derechosdigitales.org>, 2012
+# Claudio Ruiz <claudio@derechosdigitales.org>, 2012-2014
+# Evelyn Delpinal, 2013
+# Meilyn Garro, 2013
+# mgarro, 2013
+# Nathan Kinkade <nkinkade@creativecommons.org>, 2011-2012
+# vic p, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: Creative Commons\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2015-06-26 21:00+0000\n"
+"PO-Revision-Date: 2015-07-02 02:20+0000\n"
+"Last-Translator: vic p\n"
+"Language-Team: Spanish (http://www.transifex.com/projects/p/CC/language/"
+"es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 1.3\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: checkouts/cc.license/cc/license/formatters/classes.py:187
+#, python-format
+msgid ""
+"%(work_title)s by %(work_author)s is licensed under a <a rel=\"license\" "
+"href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
+msgstr ""
+"%1 por %2 se distribuye bajo una <a rel=\"license\" href=\"%3\">Licencia "
+"Creative Commons %4</a>."
+
+#: checkouts/cc.license/cc/license/formatters/classes.py:200
+#, python-format
+msgid ""
+"This %(work_type)s by %(work_author)s is licensed under a <a rel=\"license\" "
+"href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
+msgstr ""
+"Esta %1 de %2 está bajo una <a rel=\"license\" href=\"%3\">Licencia Creative "
+"Commons %4</a>."
+
+#: checkouts/cc.license/cc/license/formatters/classes.py:211
+#, python-format
+msgid ""
+"%(work_title)s is licensed under a <a rel=\"license\" href=\"%(license_url)s"
+"\">Creative Commons %(license_name)s License</a>."
+msgstr ""
+"%1 está distribuido bajo una <a rel=\"license\" href=\"%2\">Licencia "
+"Creative Commons %3</a>."
+
+#: checkouts/cc.license/cc/license/formatters/classes.py:220
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/chooser/xmp_template.py:60
+#, python-format
+msgid ""
+"This %(work_type)s is licensed under a <a rel=\"license\" href="
+"\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
+msgstr ""
+"Esta %1 está bajo una <a rel=\"license\" href=\"%2\">Licencia Creative "
+"Commons %3</a>."

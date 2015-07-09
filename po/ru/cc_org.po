@@ -1,0 +1,70 @@
+# Translations template for PROJECT.
+# Copyright (C) 2015 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+#
+# Translators:
+# cwebber <cwebber@dustycloud.org>, 2011
+# cwebber <cwebber@dustycloud.org>, 2011
+# cwebber <cwebber@dustycloud.org>, 2011
+# Nathan Kinkade <nkinkade@creativecommons.org>, 2011
+# Nikolay Nakuginkin <translator@mondaystar.ru>, 2013
+# oleg koptev <koptev.oleg@gmail.com>, 2011-2013
+# oleg koptev <koptev.oleg@gmail.com>, 2012
+# Paul Kaganer <paul.kaganer@gmail.com>, 2011,2013
+# Pavel Tchernov <pashachernov@gmail.com>, 2015
+# TarzanASG, 2011
+# TarzanASG, 2011
+msgid ""
+msgstr ""
+"Project-Id-Version: Creative Commons\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2015-06-26 21:00+0000\n"
+"PO-Revision-Date: 2015-07-01 16:11+0000\n"
+"Last-Translator: Pavel Tchernov <pashachernov@gmail.com>\n"
+"Language-Team: Russian (http://www.transifex.com/projects/p/CC/language/"
+"ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 1.3\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: checkouts/cc.license/cc/license/formatters/classes.py:187
+#, python-format
+msgid ""
+"%(work_title)s by %(work_author)s is licensed under a <a rel=\"license\" "
+"href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
+msgstr ""
+"Произведение «%1» созданное автором по имени %2, публикуется на условиях <a "
+"rel=\"license\" href=\"%3\">лицензии Creative Commons %4</a>."
+
+#: checkouts/cc.license/cc/license/formatters/classes.py:200
+#, python-format
+msgid ""
+"This %(work_type)s by %(work_author)s is licensed under a <a rel=\"license\" "
+"href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
+msgstr ""
+"Это %1, автор которого — %2, доступно на условиях <a rel=\"license\" href="
+"\"%3\">лицензии Creative Commons %4</a>."
+
+#: checkouts/cc.license/cc/license/formatters/classes.py:211
+#, python-format
+msgid ""
+"%(work_title)s is licensed under a <a rel=\"license\" href=\"%(license_url)s"
+"\">Creative Commons %(license_name)s License</a>."
+msgstr ""
+"%1 доступно на условиях <a rel=\"license\" href=\"%2\">лицензии Creative "
+"Commons %3</a>."
+
+#: checkouts/cc.license/cc/license/formatters/classes.py:220
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/chooser/xmp_template.py:60
+#, python-format
+msgid ""
+"This %(work_type)s is licensed under a <a rel=\"license\" href="
+"\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
+msgstr ""
+"Это %1 доступно по <a rel=\"license\" href=\"%2\">лицензии Creative Commons "
+"%3</a>."

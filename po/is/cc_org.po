@@ -1,0 +1,63 @@
+# Translations template for PROJECT.
+# Copyright (C) 2015 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+#
+# Translators:
+# Anna Jonna Ármannsdóttir <annaj@hi.is>, 2014
+# Bjarki Sigursveinsson <bjarki@gmail.com>, 2012
+# Bragi Halldorsson <bragi@this.is>, 2011
+# Sveinn í Felli <sv1@fellsnet.is>, 2011-2013
+# Sveinn í Felli <sv1@fellsnet.is>, 2013
+# Sveinn í Felli <sv1@fellsnet.is>, 2011, 2012
+msgid ""
+msgstr ""
+"Project-Id-Version: Creative Commons\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2015-06-26 21:00+0000\n"
+"PO-Revision-Date: 2015-06-29 19:29+0000\n"
+"Last-Translator: Matt Lee <mattl@creativecommons.org>\n"
+"Language-Team: Icelandic (http://www.transifex.com/projects/p/CC/language/"
+"is/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 1.3\n"
+"Language: is\n"
+"Plural-Forms: nplurals=2; plural=(n % 10 == 1 || n % 100 != 11);\n"
+
+#: checkouts/cc.license/cc/license/formatters/classes.py:187
+#, python-format
+msgid ""
+"%(work_title)s by %(work_author)s is licensed under a <a rel=\"license\" "
+"href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
+msgstr ""
+"%1 eftir %2 er gefið út með <a rel=\"license\" href=\"%3\">Creative Commons "
+"%4 afnotaleyfi</a>."
+
+#: checkouts/cc.license/cc/license/formatters/classes.py:200
+#, python-format
+msgid ""
+"This %(work_type)s by %(work_author)s is licensed under a <a rel=\"license\" "
+"href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
+msgstr ""
+"Þetta %1 eftir %2 er gefið út með <a rel=\"license\" href=\"%3\">Creative "
+"Commons %4 afnotaleyfi</a>."
+
+#: checkouts/cc.license/cc/license/formatters/classes.py:211
+#, python-format
+msgid ""
+"%(work_title)s is licensed under a <a rel=\"license\" href=\"%(license_url)s"
+"\">Creative Commons %(license_name)s License</a>."
+msgstr ""
+"%1 er gefið út með <a rel=\"license\" href=\"%2\">Creative Commons %3 "
+"afnotaleyfi</a>."
+
+#: checkouts/cc.license/cc/license/formatters/classes.py:220
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/chooser/xmp_template.py:60
+#, python-format
+msgid ""
+"This %(work_type)s is licensed under a <a rel=\"license\" href="
+"\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
+msgstr ""
+"Þetta %1 er gefið út með <a rel=\"license\" href=\"%2\">Creative Commons %3 "
+"afnotaleyfi</a>."

@@ -1,0 +1,70 @@
+# Translations template for PROJECT.
+# Copyright (C) 2015 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+#
+# Translators:
+# Damien Clauzel <Damien@Clauzel.nom.fr>, 2011
+# Jean-Frédéric <jeanfrederic.wiki@gmail.com>, 2011-2012
+# Jean-Frédéric <jeanfrederic.wiki@gmail.com>, 2011, 2012
+# larachacha <lara.beswick@gmail.com>, 2013-2014
+# larachacha <lara.beswick@gmail.com>, 2011
+# larachacha <lara.beswick@gmail.com>, 2011,2013
+# mdulong <melanie.ddr@gmail.com>, 2011-2013
+# mdulong <melanie.ddr@gmail.com>, 2013-2014
+# mdulong <melanie.ddr@gmail.com>, 2011, 2012
+# Nathan Kinkade <nkinkade@creativecommons.org>, 2011
+# Patrick Rump <patrick.rump@yahoo.fr>, 2011
+# pdefilippi <pdefilippi@gmail.com>, 2012
+# pdefilippi <pdefilippi@gmail.com>, 2012
+# ProgVal <progval@gmail.com>, 2011
+msgid ""
+msgstr ""
+"Project-Id-Version: Creative Commons\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2015-06-26 21:00+0000\n"
+"PO-Revision-Date: 2015-06-29 19:29+0000\n"
+"Last-Translator: Matt Lee <mattl@creativecommons.org>\n"
+"Language-Team: French (http://www.transifex.com/projects/p/CC/language/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 1.3\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: checkouts/cc.license/cc/license/formatters/classes.py:187
+#, python-format
+msgid ""
+"%(work_title)s by %(work_author)s is licensed under a <a rel=\"license\" "
+"href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
+msgstr ""
+"%1 de %2 est mis à disposition selon les termes de la <a rel=\"license\" "
+"href=\"%3\">licence Creative Commons %4</a>."
+
+#: checkouts/cc.license/cc/license/formatters/classes.py:200
+#, python-format
+msgid ""
+"This %(work_type)s by %(work_author)s is licensed under a <a rel=\"license\" "
+"href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
+msgstr ""
+"Ce(tte) %1 de %2 est mise à disposition selon les termes de la <a rel="
+"\"license\" href=\"%3\">licence Creative Commons %4</a>."
+
+#: checkouts/cc.license/cc/license/formatters/classes.py:211
+#, python-format
+msgid ""
+"%(work_title)s is licensed under a <a rel=\"license\" href=\"%(license_url)s"
+"\">Creative Commons %(license_name)s License</a>."
+msgstr ""
+"%1 est mis à disposition selon les termes de la <a rel=\"license\" href="
+"\"%2\">licence Creative Commons %3</a>."
+
+#: checkouts/cc.license/cc/license/formatters/classes.py:220
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/chooser/xmp_template.py:60
+#, python-format
+msgid ""
+"This %(work_type)s is licensed under a <a rel=\"license\" href="
+"\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
+msgstr ""
+"Ce(tte) %1 est mise à disposition selon les termes de la <a rel=\"license\" "
+"href=\"%2\">Licence Creative Commons %3</a>."

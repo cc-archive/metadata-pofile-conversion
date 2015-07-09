@@ -1,0 +1,44 @@
+#!/usr/bin/env perl
+# -*- mode: perl -*-
+
+# Copyright 2015 (c) Creative Commons Corporation
+
+# Change python-style %(variable_name)s to php-smarty style %1
+# These are 1-indexed.
+# Call this from msgfilter to work.
+
+use strict;
+use warnings;
+
+use List::MoreUtils qw(firstidx);
+
+# Get the original message id and the translated message
+
+my $msgid = $ENV{'MSGFILTER_MSGID'};
+my $msg = do { local $/; <STDIN> };
+
+# Find all the Python-style %(variable_name)s instances in the message id
+
+my @msgid_vars = ($msgid =~ /%\([^)]+\)s/g);
+
+# Find the index (one-based) of msg %(var)s in the array of msgid %(var)s
+
+sub msgVarIndex {
+    my $var = $_[0];
+    my $result = firstidx { $_ eq $var } @msgid_vars;
+    if ($result == -1) {
+        die "Unmatched msgid var: ${var}";
+    }
+    return "%" . ($result + 1);
+}
+
+# If there are %(python_style_var)s instances in the message id
+# Substitute them in the translated message for %1-style ones
+
+if (scalar @msgid_vars > 0) {
+    $msg =~ s/(%\([^)]+\)s)/msgVarIndex($1)/ge;
+}
+
+# Print the message, altered or unaltered
+
+print $msg;

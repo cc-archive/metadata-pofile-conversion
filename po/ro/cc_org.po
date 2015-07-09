@@ -1,0 +1,68 @@
+# Translations template for PROJECT.
+# Copyright (C) 2015 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+#
+# Translators:
+# Adelin Dumitru <adelin.dumitru1@gmail.com>, 2015
+# Bogdan <bogdan@legi-internet.ro>, 2011,2013,2015
+# Bogdan <bogdan@legi-internet.ro>, 2011
+# Cazacu Bogdan <cazacu.bogdan@gmail.com>, 2013
+# Cazacu Bogdan <cazacu.bogdan@gmail.com>, 2013
+# Dorin Chiritoiu <dorinchiritoiu@gmail.com>, 2015
+# Ramm <info@rammbase.com>, 2013
+# Ramm <info@rammbase.com>, 2013
+# nicolae.sandor <nicolae.sandor@gmail.com>, 2013
+# nicolae.sandor <nicolae.sandor@gmail.com>, 2013
+msgid ""
+msgstr ""
+"Project-Id-Version: Creative Commons\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2015-06-26 21:00+0000\n"
+"PO-Revision-Date: 2015-06-29 19:29+0000\n"
+"Last-Translator: Matt Lee <mattl@creativecommons.org>\n"
+"Language-Team: Romanian (http://www.transifex.com/projects/p/CC/language/"
+"ro/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 1.3\n"
+"Language: ro\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
+"2:1));\n"
+
+#: checkouts/cc.license/cc/license/formatters/classes.py:187
+#, python-format
+msgid ""
+"%(work_title)s by %(work_author)s is licensed under a <a rel=\"license\" "
+"href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
+msgstr ""
+"%1 de %2 este licenţiat printr-o <a rel=\"license\" href=\"%3\">Licenţă "
+"Creative Commons %4 </a>."
+
+#: checkouts/cc.license/cc/license/formatters/classes.py:200
+#, python-format
+msgid ""
+"This %(work_type)s by %(work_author)s is licensed under a <a rel=\"license\" "
+"href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
+msgstr ""
+"Această %1 creată de %2 este pusă la dispoziţie prin <a rel=\"license\" href="
+"\"%3\">Licenţa Creative Commons %4 </a>."
+
+#: checkouts/cc.license/cc/license/formatters/classes.py:211
+#, python-format
+msgid ""
+"%(work_title)s is licensed under a <a rel=\"license\" href=\"%(license_url)s"
+"\">Creative Commons %(license_name)s License</a>."
+msgstr ""
+"%1 este licenţiat printr-o <a rel=\"license\" href=\"%2\">Licenţă Creative "
+"Commons %3 </a>."
+
+#: checkouts/cc.license/cc/license/formatters/classes.py:220
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/chooser/xmp_template.py:60
+#, python-format
+msgid ""
+"This %(work_type)s is licensed under a <a rel=\"license\" href="
+"\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
+msgstr ""
+"Această %1 este pusă la dispoziţie sub <a rel=\"license\" href="
+"\"%2\">Licenţa Creative Commons %3 </a>."
